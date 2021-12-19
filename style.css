@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    
+    color: white;
+}
+body{
+    margin-top: 0px;
+    background-color: black;
+}
+.nav{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.top{background-color: black;
+   
+    background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/3679b63e-5d92-47a1-96ec-b26d86fc0f0a/5f2448e1-fdc2-45c0-9e1e-d1738caadfd3/IN-en-20211213-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    
+   
+    z-index: -1;
+}
+.name{
+    font-size: 30px;
+    font-family:sans-serif;
+    font-style: initial;
+    font-display:unset;
+    font-stretch: semi-expanded;
+    font-weight: 700;
+    color: red;
+    text-shadow: rosybrown;
+    text-decoration: lightblue;
+    text-transform: uppercase;
+    text-size-adjust: 30px;
+    text-decoration-style: double;
+    -moz-text-size-adjust: auto;
+}
+#language{
+    background-color: rgb(92, 86, 86);
+    opacity: .6;
+}
+.nav-right{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+#top-button{
+    padding: 10px;
+}
+
+.sign-in{
+    margin-left: 10px;
+    
+}
+button{
+    background-color: rgb(248, 14, 14);
+    border: red;
+    width: auto;
+    height: auto;
+    
+    border-radius: 3px;
+    cursor: pointer;
+    
+    
+    
+
+}
+.bar::target-text{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.heading{
+    margin-top: 100px;
+    
+}
+h1{
+    margin: 40px;
+    text-align: center;
+    font-size: 60px;
+}
+h3{
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.second{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.third{
+    text-align: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row-reverse;
+}
+.get-started{
+    
+    justify-content: center;
+    text-align: center;
+    size: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+#get-started{
+    width: 350px;
+    height: 50px;
+    
+}
+#get-but{
+    height: 50px;
+}
+.tv{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tv1{
+   z-index: 1;
+   
+
+}
+.video{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 20%;
+    left: 13.5%;
+    z-index: -1;
+    
+}
+
+
+.video2{
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 4%;
+    left: 20%;
+    z-index: -1;
+    
+    
+}
+.fourth{
+    text-align: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row;
+}
+.fifth{
+    text-align: center;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row-reverse;
+    
+}
+.footer{
+    margin: 40px;
+    justify-content: space-around;
+    
+   
+}
+h4{
+    
+    margin-bottom: 40px;
+    color: rgb(114, 106, 106);
+}
+.footer-item{
+    color: black;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    margin-bottom: 40px;
+}
+.itm{
+    color: rgb(116, 107, 107);
+}
+#language1{
+    background-color: black;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 30px;
+    
+}
+#question{
+    text-align: center;
+    width: 60%;
+    height: 60px;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: rgb(34, 32, 32);
+    margin-bottom: 10px;
+}
+.six{
+    text-align: center;
+}
+@media screen and (max-width:950px) {
+    .second{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .third{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .fourth{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .fifth{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .footer-item{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+}
+@media screen and (max-width:740px) {
+    .footer-item{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .footer-item{
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+}
